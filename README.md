@@ -10,7 +10,5 @@ uvicorn main:app --reload --host 127.0.0.1 --port 8000
 # http://127.0.0.1:8000
 
 # 4. Токен
-# https://vkhost.github.io/ (быстро) или VK ID (официально)
+# https://vkhost.github.io/
 
-# 5. Проверка токена
-curl "https://api.vk.com/method/users.get?user_ids=1&access_token=ТОКЕН&v=5.199"
